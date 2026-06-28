@@ -1,0 +1,20 @@
+# Large datasets
+data/*.csv
+data/*.zip
+data/*.parquet
+data/*.pkl
+data/*.joblib
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment
+.env
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db

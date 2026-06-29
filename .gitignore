@@ -1,20 +1,51 @@
-# Large datasets
+# =========================
+# Dataset and large files
+# =========================
 data/*.csv
 data/*.zip
 data/*.parquet
 data/*.pkl
 data/*.joblib
+data/*.h5
+data/*.hdf5
 
-# Python
-__pycache__/
-*.pyc
+# Keep dataset documentation
+!data/README.md
+
+# =========================
+# Model outputs / artifacts
+# =========================
+models/
+outputs/
+checkpoints/
+*.model
+*.cbm
+
+# =========================
+# Jupyter / Python cache
+# =========================
 .ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*$py.class
 
-# Environment
-.env
+# =========================
+# Virtual environments
+# =========================
 venv/
 .venv/
+env/
+.env
 
-# OS
+# =========================
+# IDE / OS files
+# =========================
+.vscode/
+.idea/
 .DS_Store
 Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log

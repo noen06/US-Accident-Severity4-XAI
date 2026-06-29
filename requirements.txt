@@ -1,11 +1,14 @@
 numpy
 pandas
-matplotlib
-seaborn
+scipy
 scikit-learn
 xgboost
 lightgbm
 catboost
 shap
 lime
+matplotlib
+seaborn
 jupyter
+notebook
+ipykernel
